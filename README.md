@@ -1,4 +1,4 @@
-# bedford lab research
+# imed lab research
 
 ## Build site
 

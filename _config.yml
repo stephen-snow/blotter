@@ -1,9 +1,9 @@
-name: Bedford Lab Research
-description: Science updates on evolution, epidemiology and immunology from the Bedford lab at the Fred Hutch
-url: http://bedford.io
+name: iMed Lab 
+description: A research lab at the University of Pittsburgh headed by Dr. Ervin Sejdic. The mission of the lab is to develop clinically relevant solutions by fostering innovation in computational approaches and instrumentation that can be translated to bedside care. 
+url: http://imedlab.org
 
 markdown: redcarpet
-permalink: /:categories/:title/
+permalink: pretty 
 future: true
 
 redcarpet:
