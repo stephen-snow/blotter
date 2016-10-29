@@ -13,3 +13,6 @@ projects/
 
 # Other files
 .DS_Store
+
+# bundles
+.bundle
