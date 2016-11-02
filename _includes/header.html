@@ -1,0 +1,35 @@
+<div id="header">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">	 
+        <div class="container">	
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                {% if page.categories.first != 'home' %}					
+                <object class="logo navbar-brand" data="/images/logo.svg" type="image/svg+xml"></object>
+                <a class="navbar-brand" href="/">iMED Lab</a>
+                {% endif %}
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse-element">
+                <ul class="nav navbar-nav navbar-right">
+                    {% if page.categories.first == 'about' %}
+                    <li class="active dropdown">
+                        {% else %}
+                        <li class="dropdown">
+                            {% endif %}
+                            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">about</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/about/us/" title="about us">about us</a></li>
+                                <li><a href="/about/contact/" title="contact">contact</a></li>
+                                <li><a href="/about/media/" title="media">media</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>	
+</div>
+
