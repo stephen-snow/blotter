@@ -1,0 +1,54 @@
+---
+layout: default
+title: Former Trainees - iMED Lab
+---
+
+<h2>Former trainees at the University of Pittsburgh</h2>
+
+<h4>Graduate students</h4>
+{% for student in site.data.people.former-members.pittsburgh.graduate-students %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+
+<h4>Graduate internship students</h4>
+{% for student in site.data.people.former-members.pittsburgh.graduate-internship-students %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+<h4>Undergraduate senior design</h4>
+{% for student in site.data.people.former-members.pittsburgh.undergraduate-senior-design %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+<h4>Undergraduate independent study</h4>
+{% for student in site.data.people.former-members.pittsburgh.undergraduate-independent-study %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+<h4>Undergraduate summer research supervision</h4>
+{% for student in site.data.people.former-members.pittsburgh.undergraduate-summer-research-supervision %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+<h2>Former trainees at the University of Toronto</h2>
+
+<h4>Graduate students</h4>
+{% for student in site.data.people.former-members.toronto.graduate-students %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+<h4>Undergraduate thesis supervision</h4>
+{% for student in site.data.people.former-members.toronto.undergraduate-thesis-supervision %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+<h4>Undergraduate internship students</h4>
+{% for student in site.data.people.former-members.toronto.undergraduate-internship-students %}
+    <p> {{student.name}} </p>
+{% endfor %}
+
+<h4>Undergraduate summer research supervision</h4>
+{% for student in site.data.people.former-members.toronto.undergraduate-summer-research-supervision %}
+    <p> {{student.name}} </p>
+{% endfor %}
