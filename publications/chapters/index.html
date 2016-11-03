@@ -1,0 +1,10 @@
+---
+layout: default
+title: Book Chapters - iMED Lab
+categories:
+ - chapters
+---
+
+{% for chapter in site.categories.chapters %}
+    <h3>{{ chapter.title }}</h3>
+{% endfor %}

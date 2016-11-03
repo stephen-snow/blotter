@@ -1,0 +1,10 @@
+---
+layout: default
+title: Journal Publications - iMED Lab
+categories:
+ - journals
+---
+
+{% for journal in site.categories.journals %}
+    <h3>{{ journal.title }}</h3>
+{% endfor %}

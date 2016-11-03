@@ -1,0 +1,10 @@
+---
+layout: default
+title: Patents - iMED Lab
+categories:
+ - patents
+---
+
+{% for patent in site.categories.patents %}
+    <h3>{{ patent.title }}</h3>
+{% endfor %}

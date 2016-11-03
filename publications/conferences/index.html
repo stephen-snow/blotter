@@ -1,0 +1,10 @@
+---
+layout: default
+title: Conferences - iMED Lab
+categories:
+ - conferences
+---
+
+{% for conference in site.categories.conferences %}
+    <h3>{{ conference.title }}</h3>
+{% endfor %}
