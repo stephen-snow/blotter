@@ -1,0 +1,18 @@
+---
+layout: default
+title: Funding Sources
+---
+
+<h2>Current funding sources</h2>
+{% for source in site.data.support.funding %}
+    {% if source.current == true %}
+        <h4>{{ source.name }}</h4>
+    {% endif %}
+{% endfor %}
+        
+<h2>Past funding sources</h2>
+{% for source in site.data.support.funding %}
+    {% if source.current == false %}
+        <h4>{{ source.name }}</h4>
+    {% endif %}
+{% endfor %}
