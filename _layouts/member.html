@@ -8,7 +8,7 @@ layout: default
     <div class="col-md-12">
         <div class="media">
             {% if member.image %}
-            <img class="pull-left pad-right media-object" width=120 src="{{ member.image | prepend: site.github.url }}">
+            <img class="pull-left pad-right media-object" width=120 src="{{ member.image | prepend: site.url }}">
             {% endif %}
             <div class="media-body titlebox">
                 <div class="bigtitle media-heading">
