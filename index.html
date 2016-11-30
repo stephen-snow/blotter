@@ -7,7 +7,7 @@ categories:
 
 <div class="row">
 	<div class="col-md-12">
-		<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>
+        <object class="pull-left biglogo" data="{{ site.url }}/images/logo.svg" type="image/svg+xml"></object>
 		<div class="bigtitle logobox">
 		    iMED Lab Research	
 		</div>
@@ -30,7 +30,7 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="head">
-			<a class="off" href="/blog/">Recent posts</a>
+            <a class="off" href="{{ site.url }}/blog/">Recent posts</a>
 		</div>
 		<div class="spacer"></div>
 	</div>
@@ -63,7 +63,7 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="head">
-			<a class="off" href="/papers/">Recent papers</a>
+            <a class="off" href="{{ site.url }}/publications/journals/">Recent papers</a>
 		</div>
 		<div class="spacer"></div>
 	</div>
@@ -75,7 +75,7 @@ categories:
 		<div class="pad-left">
 			<div class="note">
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="{{ paper.url }}">
+				<a class="off" href="{{ paper.url | prepend:site.url }}">
 				{{ paper.title }}
 				</a>
 			</div>
