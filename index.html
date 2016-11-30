@@ -5,4 +5,90 @@ categories:
  - home
 ---
 
-<h1>Title page</h1>
+<div class="row">
+	<div class="col-md-12">
+		<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>
+		<div class="bigtitle logobox">
+		    iMED Lab Research	
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+            The iMED (Innovative Medical Engineering Developments) lab was founded in 2011 through the generous support of the Swanson School of Engineering and the University of Pittsburgh. The vision of this lab is to become an international leader in dynamical biomarkers indicative of age- and disease-related changes and their contributions to functional decline under normal and pathological conditions. In particular, the mission of the lab is to develop clinically relevant solutions by fostering innovation in computational approaches and instrumentation that can be translated to bedside care.
+		</div>
+	</div>	
+</div>
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="/blog/">Recent posts</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">		
+	{% for post in site.categories.blog limit:4 %}
+	
+	<div class="col-md-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-comment-o fa-fw"></i>
+				<a class="off" href="{{ post.link }}">
+				{{ post.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				{{ post.date | date: "%-d %b %Y" }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>			
+	{% endfor %}	
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="/papers/">Recent papers</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">		
+	{% for paper in site.categories.journals limit:4 %}		
+	<div class="col-md-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="{{ paper.url }}">
+				{{ paper.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				{{ paper.date | date: "%-d %b %Y" }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}	
+</div>
+
+<div class="spacer"></div>
+
