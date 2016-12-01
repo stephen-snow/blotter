@@ -5,6 +5,21 @@ categories:
  - journals
 ---
 
-{% for journal in site.categories.journals %}
-    <h3>{{ journal.title }}</h3>
+{% for paper in site.categories.journals %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+        <div class="col-md-4 paperbox">
+            <div class="media">
+                <a class="pull-right" href="{{ paper.url | prepend:site.url }}">
+                <img width=100 class="media-object" src="{{ paper.image | prepend:site.url }}">
+                </a>
+                <div class="media-body">
+                <div class="smallhead media-heading"><a href="{{ paper.url | prepend:site.url }}" class="off">{{ paper.title }}</a></div>
+                <p class="note">{{ paper.ref }}</p>
+            </div>
+        </div>
+        <div class="bigspacer"></div>
+        <div class="spacer"></div>
+    </div>
+    {% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}

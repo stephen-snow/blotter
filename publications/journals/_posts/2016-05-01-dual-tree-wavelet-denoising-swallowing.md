@@ -1,6 +1,13 @@
 ---
 layout: paper
 title: 'A matched dual-tree wavelet denoising for tri-axial swallowing vibrations'
+authors: J. M. Dudik, J. L. Coyle, A. El Jaroudi, M. Sun, E. Sejdić
+pubdate: May 2016
+ref: Dudik et. al. 2016. Biomed Sig Proc Control.
+journal: Biomedical Signal Processing and Control
+journaldetails: vol. 27, pp. 112-121
+pdf: /pdfs/papers/dual-tree-wavelet-denoising-swallowing.pdf
+doi: 10.1016/j.bspc.2016.01.012
 ---
 
 # Abstract
