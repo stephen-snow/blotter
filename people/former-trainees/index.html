@@ -7,48 +7,84 @@ title: Former Trainees
 
 <h4>Graduate students</h4>
 {% for student in site.data.people.former-members.pittsburgh.graduate-students %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.degree}}, {{student.school}}, "{{student.title}}"</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 
 <h4>Graduate internship students</h4>
 {% for student in site.data.people.former-members.pittsburgh.graduate-internship-students %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.school}}, "{{student.title}}"</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 <h4>Undergraduate senior design</h4>
 {% for student in site.data.people.former-members.pittsburgh.undergraduate-senior-design %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.school}}, "{{student.title}}" {{student.misc}}</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 <h4>Undergraduate independent study</h4>
 {% for student in site.data.people.former-members.pittsburgh.undergraduate-independent-study %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.school}}, "{{student.title}}"</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 <h4>Undergraduate summer research supervision</h4>
 {% for student in site.data.people.former-members.pittsburgh.undergraduate-summer-research-supervision %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.degree}}, {{student.school}}, "{{student.title}}" {{student.misc}}</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 <h2>Former trainees at the University of Toronto</h2>
 
 <h4>Graduate students</h4>
 {% for student in site.data.people.former-members.toronto.graduate-students %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.degree}}, {{student.school}}, "{{student.title}}"</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 <h4>Undergraduate thesis supervision</h4>
 {% for student in site.data.people.former-members.toronto.undergraduate-thesis-supervision %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.school}}, "{{student.title}}"</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 <h4>Undergraduate internship students</h4>
 {% for student in site.data.people.former-members.toronto.undergraduate-internship-students %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.school}}, "{{student.title}}"</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}
 
 <h4>Undergraduate summer research supervision</h4>
 {% for student in site.data.people.former-members.toronto.undergraduate-summer-research-supervision %}
-    <p> {{student.name}} </p>
+    <div class="row">
+        <div class="col-md-2">{{student.year}}</div>
+        <div class="col-md-6">{{student.name}}, {{student.degree}}, {{student.school}}, "{{student.title}}"</div>
+    </div>
+    <div class="spacer"></div>
 {% endfor %}

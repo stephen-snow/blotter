@@ -9,3 +9,46 @@
   school: University of Brasilia
   title: Gait monitoring using a smartphone
   year: 2015
+
+- name: Jacques Bourree
+  degree: 4th year Electrical Engineering
+  school: École polytechnique universitaire de Montpellier - Polytech Montpellier
+  title: Handwriting assessment
+  year: 2015
+
+- name: Antoine Charon
+  degree: 4th year Electrical Engineering
+  school: École polytechnique de l'université de Nantes - Polytech Nantes
+  title: The application of graph theory to gait assessment
+  year: 2014
+
+- name: Christian Thomas
+  degree: 1st year engineering student
+  school: University of Pittsburgh
+  title: The application of graph theory to gait assessment
+  year: 2014
+
+- name: John Teoli
+  degree: 3rd year Electrical Engineering
+  school: University of Pittsburgh
+  title: Handwriting assessment
+  year: 2013
+
+- name: Kara Bocan
+  degree: 4th year Electrical/Biomedical Engineering
+  school: University of Pittsburgh
+  title: Design of continuous audio output for a fingertip pulse oximeter
+  misc: (co-supervised with Dr. M. Mickle)
+  year: 2012
+
+- name: Annmarie Grant
+  degree: 1st year Electrical Engineering
+  school: University of Pittsburgh
+  title: 'I can’t get up because I haven’t fallen: iGait as preventative measure'
+  year: 2012
+
+- name: Meng Li
+  degree: 3rd year Electrical Engineering
+  school: University of Pittsburgh
+  title: Assessment of cerebral blood flow velocities during cognitive tasks and rests
+  year: 2012
