@@ -7,6 +7,9 @@ title: Funding Sources
 {% for source in site.data.support.funding %}
     {% if source.current == true %}
         <h4>{{ source.name }}</h4>
+        <img style="max-height:160px; max-width:600px;" class="media-object" src="{{ source.image | preprend: site.url }}">
+        <div class="bigspacer"></div>
+        <div class="bigspacer"></div>
     {% endif %}
 {% endfor %}
         
@@ -14,5 +17,8 @@ title: Funding Sources
 {% for source in site.data.support.funding %}
     {% if source.current == false %}
         <h4>{{ source.name }}</h4>
+        <img style="max-height:160px; max-width:600px;" class="media-object" src="{{ source.image | preprend: site.url }}">
+        <div class="bigspacer"></div>
+        <div class="bigspacer"></div>
     {% endif %}
 {% endfor %}

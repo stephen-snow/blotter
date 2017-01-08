@@ -1,8 +1,26 @@
 - name: Eunice Kennedy Shriver National Institute of Child Health and Human Development
+  image: /images/support/nichd.jpg
   current: true
 
 - name: GS1
+  image: /images/support/gs1.jpg
+  current: true
+
+- name: University of Pittsburgh
+  image: /images/support/pitt2.gif
   current: true
 
 - name: Pennsylvania Department of Transportation
+  image: /images/support/penndot.jpg
   current: false
+
+- name: National Institute of Diabetes and Digestive and Kidney Disease (salary support)
+  image: /images/support/niddk.gif
+  current: false
+
+- name: National Institute of Aging (salary support)
+  image: /images/support/nia.jpg
+  current: false
+
+- name: Natural Sciences and Engineering Research Council of Canada (salary support)
+  image: /images/support/nserc.jpg

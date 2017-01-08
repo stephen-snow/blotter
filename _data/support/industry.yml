@@ -1,7 +1,9 @@
 - name: Panacis Medical Inc.
   location: Ottawa, Ontario, Canada
+  image: /images/support/panacis.jpg
   research-area: Swallowing difficulties
 
 - name: Syngrafii
   location: Toronto, Ontario, Canada
+  image: /images/support/longpen.jpg
   research-area: Handwriting biometrics 

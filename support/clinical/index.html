@@ -5,6 +5,10 @@ title: Clinical Partners
 
 <h2>Clinical Partners</h2>
 {% for partner in site.data.support.clinical %}
-<h4>{{ partner.name }}</h4>
+<h4>{{ partner.name }} : {{ partner.research-area }}</h4>
+<h5>{{ partner.location }}</h5>
+<img style="max-height:160px; max-width:600px;" class="media-object" src="{{ partner.image | preprend: site.url }}">
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
 {% endfor %}
 
