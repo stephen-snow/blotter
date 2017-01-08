@@ -8,9 +8,15 @@ title: Current Members
 <div class="row">
     <div class="col-md-4 memberbox">
         <div class="media">
+            {% if member.image %}
             <a class="pull-left">
                 <img width=160 class="media-object" src="{{ member.image | prepend:site.url }}">
             </a>
+            {% else %}
+            <a class="pull-left">
+                <img width=160 class="media-object" src="{{ site.url }}/images/people/labmember.jpg">
+            </a>
+            {% endif %}
             <div class="media-body">
                 <div class="head media-heading">{{ member.name }}</div>
                 <p class="note">{{ member.title }}</p>
