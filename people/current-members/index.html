@@ -2,8 +2,34 @@
 layout: default
 title: Current Members
 ---
-
+<h2>Current Members</h2>
+<div class="bigspacer"></div>
 {% for member in site.data.people.current-members %}
-    <h2> {{member.name}} </h2>
+<div class="row">
+    <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left">
+                <img width=160 class="media-object" src="{{ member.image | prepend:site.url }}">
+            </a>
+            <div class="media-body">
+                <div class="head media-heading">{{ member.name }}</div>
+                <p class="note">{{ member.title }}</p>
+                <p class="note">{{ member.email }}</p>
+            </div>
+        </div>
+        <div class="bigspacer"></div>
+        <div class="bigspacer"></div>
+    </div>
+    <div class="col-md-6">
+        <div class="head">Education and training</div>
+        {{ member.education }}
+        <div class="spacer"></div>
+        <div class="head">Research interests</div>
+        {{ member.research }}
+    </div>
+</div>
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
 {% endfor %}
+
 
