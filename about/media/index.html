@@ -5,6 +5,8 @@ categories:
  - media
 ---
 
-{% for media in site.categories.media %}
-    {{ media.title }}
+<h2>Media</h2>
+{% for media in site.data.media %}
+"{{ media.title }}" <a href="{{media.link}}">{{media.link}}</a> {{media.date}}
+<div class="spacer"></div>
 {% endfor %}
