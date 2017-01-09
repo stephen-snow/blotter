@@ -1,10 +1,50 @@
 ---
 layout: default
-title: Conferences
-categories:
- - conferences
+title: Conferences 
 ---
 
-{% for conference in site.categories.conferences %}
-    <h3>{{ conference.title }}</h3>
+<h2>Refereed Conference Proceedings</h2>
+<div class="spacer"></div>
+{% for paper in site.data.publications.conferences.proceedings %}
+{% if paper.abstract %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="media">
+            <div class="media-body">
+                <div class="smallhead media-heading"><a data-toggle="collapse" data-target="#{{paper.slug}}" class="off">{{ paper.citation }}</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="{{paper.slug}}" class="collapse">
+    <p><a href="{{ paper.pdf | prepend:site.url }}">PDF</a> | DOI: <a href="http://dx.doi.org/{{paper.doi}}">{{paper.doi}}</a><p>
+    <p>{{paper.abstract}}</p>
+</div>
+{% else %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="media">
+            <div class="media-body">
+                <div class="smallhead media-heading">{{ paper.citation }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+<div class="spacer"></div>
+{% endfor %}
+
+<h2>Refereed Conference Abstracts</h2>
+<div class="spacer"></div>
+{% for paper in site.data.publications.conferences.abstracts %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="media">
+            <div class="media-body">
+                <div class="smallhead media-heading">{{ paper.citation }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="spacer"></div>
 {% endfor %}
