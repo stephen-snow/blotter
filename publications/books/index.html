@@ -1,10 +1,21 @@
 ---
 layout: default
-title: Books
-categories:
- - books
+title: Books 
 ---
 
-{% for book in site.categories.books %}
-    <h3>{{ book.title }}</h3>
+<h2>Books</h2>
+<div class="spacer"></div>
+<p class="note">Legend: PA – Principal Author; SRA - Senior Responsible Author; CPA - Co-Principal Author; CA – Contributing Author</p>
+
+{% for book in site.data.publications.books %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="media">
+            <div class="media-body">
+                <div class="smallhead media-heading">{{ book.authors }}, <i>{{ book.title }}</i>. {{ book.pubdetails }}. <b>{{ book.authortype }}</b><a href="{{ book.amazonurl | prepend:site.url }}"> [Buy from Amazon]</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="spacer"></div>
 {% endfor %}

@@ -1,0 +1,20 @@
+- title: 'Wireless Communications and Multitaper Analysis: Applications to Channel Modelling and Estimation'
+  booktitle: Mobile and Wireless Communications Physical Layer Development and Implementation
+  authors: S. J. Haghighi, S. Primak, V. Kontorovich, E. Sejdić
+  pubdetails: 'S. A. Fares and F. Adachi, Eds. Vienna, Austria: I-Tech Education and Publishing, 2010, pp. 25-46'
+  authortype: CA
+  pdf: /pdfs/chapters/multitaper-chapter.pdf
+
+- title: Spectro-Temporal Analysis of Auscultatory Sounds
+  booktitle: New Developments in Biomedical Engineering
+  authors: T. H. Falk, W-Y. Chan, E. Sejdić, T. Chau
+  pubdetails: 'D. Campolo, Ed. Vienna, Austria: I-Tech Education and Publishing, 2010, pp. 93-104'
+  authortype: CA
+  pdf: /pdfs/chapters/auscultatory-sounds.pdf
+
+- title: 'Pattern Recognition in Time-Frequency Domain: Selective Regional Correlation and Its Applications'
+  booktitle: Pattern Recognition Techniques, Technology and Applications
+  authors: E. Sejdić, J. Jiang
+  pubdetails: 'P.-Y. Yin, Ed. Vienna, Austria: I-Tech Education and Publishing, 2008, pp. 613-626'
+  authortype: PA
+  pdf: /pdfs/chapters/src-chapter.pdf

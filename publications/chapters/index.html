@@ -1,10 +1,21 @@
 ---
 layout: default
-title: Book Chapters
-categories:
- - chapters
+title: Chapters 
 ---
 
-{% for chapter in site.categories.chapters %}
-    <h3>{{ chapter.title }}</h3>
+<h2>Book Chapters</h2>
+<div class="spacer"></div>
+<p class="note">Legend: PA – Principal Author; SRA - Senior Responsible Author; CPA - Co-Principal Author; CA – Contributing Author</p>
+
+{% for chapter in site.data.publications.chapters %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="media">
+            <div class="media-body">
+                <div class="smallhead media-heading"><a href="{{ chapter.pdf | prepend:site.url }}" class="off">{{ chapter.authors }}, "{{ chapter.title }}," in <i>{{ chapter.booktitle }}</i>. {{ chapter.pubdetails }}. <b>{{ chapter.authortype }}</b></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="spacer"></div>
 {% endfor %}
