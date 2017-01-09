@@ -1,0 +1,19 @@
+---
+layout: default
+title: News 
+categories:
+ - news 
+---
+
+<h2>News</h2>
+<div class="bigspacer"></div>
+{% for article in site.categories.news %}
+{% if article.link %}
+<a href="{{ article.link }}" class="off"><h3>{{ article.title }}</h3></a>
+{% else %}
+<h3>{{ article.title }}</h3>
+{% endif %}
+<h5>{{ article.date | date_to_long_string }}</h5>
+{{ article.content }}
+<div class="bigspacer"></div>
+{% endfor %}
