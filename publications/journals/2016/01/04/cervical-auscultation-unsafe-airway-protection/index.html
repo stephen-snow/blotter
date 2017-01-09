@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+	<meta charset="utf-8"/>
+	<title>A statistical analysis of cervical auscultation signals from adults with unsafe airway protection</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- RSS feed -->
+	<link rel="alternate" type="application/rss+xml" title="iMed Lab" href="http://localhost:4000/feed.xml">
+	
+    <!-- Customized Bootstrap + Font Awesome + Solarized -->
+    <link href="http://localhost:4000/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+    <link rel="shortcut icon" href="http://localhost:4000/images/favicon.ico"/>	
+
+	<!-- Typekit -->
+	<script>
+	  (function(d) {
+		var config = {
+		  kitId: 'xeu8jut',
+		  scriptTimeout: 3000
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+		
+	<!-- Google Analytics	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-26244371-2', 'bedford.io');
+		ga('send', 'pageview');
+
+	</script>
+	-->
+	
+	<!-- jQuery -->
+    <script src="http://localhost:4000/js/jquery.min.js"></script>
+	
+	<!-- Bootstrap -->
+    <script src="http://localhost:4000/js/transition.js"></script>
+    <script src="http://localhost:4000/js/collapse.js"></script>
+    <script src="http://localhost:4000/js/dropdown.js"></script>
+
+</head>
+
+
+    <body>
+
+        <div id="header">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">	 
+        <div class="container">	
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost:4000/">iMED Lab</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse-element">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="dropdown">
+                    
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">about</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://localhost:4000/about/us/" title="about us">about us</a></li>
+                            <li><a href="http://localhost:4000/about/contact/" title="contact">contact</a></li>
+                            <li><a href="http://localhost:4000/about/media/" title="media">media</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="active dropdown">
+                    
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">publications</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://localhost:4000/publications/books/" title="books">books</a></li>
+                            <li><a href="http://localhost:4000/publications/chapters/" title="book chapters">book chapters</a></li>
+                            <li><a href="http://localhost:4000/publications/journals/" title="journal publications">journal publications</a></li>
+                            <li><a href="http://localhost:4000/publications/conferences/" title="conferences">conferences</a></li>
+                            <li><a href="http://localhost:4000/publications/patents/" title="patents">patents</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li class="dropdown">
+                    
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">research</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://localhost:4000/research/signal-processing/" title="signal processing">signal processing</a></li>
+                            <li><a href="http://localhost:4000/research/dysphagia/" title="swallowing difficulties">swallowing difficulties</a></li>
+                            <li><a href="http://localhost:4000/research/gait-analysis/" title="gait analysis">gait analysis</a></li>
+                            <li><a href="http://localhost:4000/research/handwriting-analysis/" title="handwriting analysis">handwriting analysis</a></li>
+                            <li><a href="http://localhost:4000/research/fTCD/" title="functional TCD">functional TCD</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                    
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">people</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://localhost:4000/people/principal-investigator/" title="principal investigator">principal investigator</a></li>
+                            <li><a href="http://localhost:4000/people/current-members/" title="current members">current members</a></li>
+                            <li><a href="http://localhost:4000/people/former-trainees/" title="former trainees">former trainees</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                    
+                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">support</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://localhost:4000/support/funding/" title="funding">funding</a></li>
+                            <li><a href="http://localhost:4000/support/industry/" title="industry partners">industry partners</a></li>
+                            <li><a href="http://localhost:4000/support/clinical/" title="clinical partners">clinical partners</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>	
+</div>
+
+
+
+        <div class="container">
+            
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="media">
+            
+            <div class="media-body titlebox">
+                <div class="title media-heading">
+                    A statistical analysis of cervical auscultation signals from adults with unsafe airway protection
+                </div>
+                <p>
+                <div class="smallhead">
+                    J. M. Dudik, A. Kurosu, J. L. Coyle, E. Sejdić.
+                    <i>Journal of NeuroEngineering and Rehabilitation</i>,
+                    vol. 13, pp. 7-1-10,
+                    2016.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="bigspacer"></div>
+        <div class="glyphbox note">
+            
+            <div class="smallhead">
+                PDF
+            </div>
+            <div class="pad-left note">
+                <div class="smallspacer"></div>
+                <i class="fa fa-file-text-o fa-fw"></i>
+                <a class="off" href="http://localhost:4000/pdfs/papers/cervical-auscultation-unsafe-airway-protection.pdf">cervical-auscultation-unsafe-airway-protection.pdf</a>
+            </div>
+            <div class="bigspacer"></div>
+            
+            
+            
+            <div class="smallhead">
+                DOI
+            </div>
+            <div class="pad-left note">
+                <div class="smallspacer"></div>
+                <i class="fa fa-external-link fa-fw"></i>
+                <a class="off" href="http://dx.doi.org/10.1186/s12984-015-0110-9">10.1186/s12984-015-0110-9</a>
+            </div>
+            <div class="bigspacer"></div>
+            
+            
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="post">
+            <h1>Abstract</h1>
+
+<p>Background: Aspiration, where food or liquid is allowed to enter the larynx during a swallow, is recognized as the most clinically salient feature of oropharyngeal dysphagia. This event can lead to short-term harm via airway obstruction or more long-term effects such as pneumonia. In order to non-invasively identify this event using high resolution cervical auscultation there is a need to characterize cervical auscultation signals from subjects with dysphagia who aspirate. Methods: In this study, we collected swallowing sound and vibration data from 76 adults (50 men, 26 women, mean age 62) who underwent a routine videofluoroscopy swallowing examination. The analysis was limited to swallows of liquid with either thin (less than 5 cps) or viscous (around 300 cps) consistency and was divided into those with deep laryngeal penetration or aspiration (unsafe airway protection), and those with either shallow or no laryngeal penetration (safe airway protection), using a standardized scale. After calculating a selection of time, frequency, and time-frequency features for each swallow, the safe and unsafe categories were compared using Wilcoxon rank-sum statistical tests. Results: Our analysis found that few of our chosen features varied in magnitude between safe and unsafe swallows with thin swallows demonstrating no statistical variation. We also supported our past findings with regard to the effects of sex and the presence or absence of stroke on cervical ausculation signals, but noticed certain discrepancies with regards to bolus viscosity. Conclusions: Overall, our results support the necessity of using multiple statistical features concurrently to identify laryngeal penetration of swallowed boluses in future work with high resolution cervical auscultation.</p>
+
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+        </div>
+
+        <div id="footer"><span style="display:none">foo</span></div>
+
+
+
+    </body>
+</html>
+
