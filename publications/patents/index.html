@@ -5,15 +5,15 @@ title: Patents
 
 <h2>Patents</h2>
 <div class="spacer"></div>
-{% for patent in site.data.publications.patents %}
-<div class="row">
-    <div class="col-md-8">
-        <div class="media">
-            <div class="media-body">
-                <div class="smallhead media-heading">{{ patent.authors }}, "{{ patent.title }}," {{ patent.details }}, filed on {{ patent.filedate }}</div>
-            </div>
+<ol>
+    {% for patent in site.data.publications.patents %}
+    <div class="row">
+        <div class="col-md-8">
+            <li>
+                {{ patent.authors }}, "{{ patent.title }}," {{ patent.details }}, filed on {{ patent.filedate }}
+            </li>
         </div>
     </div>
-</div>
-<div class="spacer"></div>
-{% endfor %}
+    <div class="spacer"></div>
+    {% endfor %}
+</ol>

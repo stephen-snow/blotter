@@ -5,19 +5,16 @@ title: Journal Publications
 
 <h2>Journal Publications</h2>
 <div class="spacer"></div>
-{% for paper in site.data.publications.journals %}
-<div class="row">
-    <div class="col-md-8">
-        <div class="media">
-            <div class="media-body">
-                <div class="smallhead media-heading"><a data-toggle="collapse" data-target="#{{paper.slug}}" class="off">{{ paper.citation }}</a></div>
-            </div>
-        </div>
+<ol>
+    {% for paper in site.data.publications.journals %}
+    <div class="row">
+        <div class="col-md-8">
+            <a data-toggle="collapse" data-target="#{{paper.slug}}" class="off"><li>{{ paper.citation }}</li></a></div>
     </div>
-</div>
-<div id="{{paper.slug}}" class="collapse">
-    <p><a href="{{ paper.pdf | prepend:site.url }}">PDF</a> | DOI: <a href="http://dx.doi.org/{{paper.doi}}">{{paper.doi}}</a><p>
-    <p>{{paper.abstract}}</p>
-</div>
-<div class="spacer"></div>
-{% endfor %}
+    <div id="{{paper.slug}}" class="collapse">
+        <p><a href="{{ paper.pdf | prepend:site.url }}">PDF</a> | DOI: <a href="http://dx.doi.org/{{paper.doi}}">{{paper.doi}}</a><p>
+        <p>{{paper.abstract}}</p>
+    </div>
+    <div class="spacer"></div>
+    {% endfor %}
+</ol>

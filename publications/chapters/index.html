@@ -7,15 +7,15 @@ title: Chapters
 <div class="spacer"></div>
 <p class="note">Legend: PA – Principal Author; SRA - Senior Responsible Author; CPA - Co-Principal Author; CA – Contributing Author</p>
 
+<ol>
 {% for chapter in site.data.publications.chapters %}
 <div class="row">
     <div class="col-md-8">
-        <div class="media">
-            <div class="media-body">
-                <div class="smallhead media-heading"><a href="{{ chapter.pdf | prepend:site.url }}" class="off">{{ chapter.authors }}, "{{ chapter.title }}," in <i>{{ chapter.booktitle }}</i>. {{ chapter.pubdetails }}. <b>{{ chapter.authortype }}</b></a></div>
-            </div>
-        </div>
+        <li>
+            <a href="{{ chapter.pdf | prepend:site.url }}" class="off">{{ chapter.authors }}, "{{ chapter.title }}," in <i>{{ chapter.booktitle }}</i>. {{ chapter.pubdetails }}. <b>{{ chapter.authortype }}</b></a>
+        </li>
     </div>
 </div>
 <div class="spacer"></div>
 {% endfor %}
+</ol>
