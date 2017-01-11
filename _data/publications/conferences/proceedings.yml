@@ -1,29 +1,162 @@
-- citation: 'E. Sejdić, J. M. Dudik, A. Kurosu, I. Jestrović, J. L. Coyle, "Understanding differences between healthy swallows and penetration-aspiration swallows via compressive sensing of tri-axial swallowing accelerometry signals," in Proc. of SPIE – Compressive Sensing III, vol. 9109, Baltimore, MD, USA, May 7-9, 2013, pp. 91090M-1-91090M-6.'
+- citation: >
+    E. Sejdić, J. M. Dudik, A. Kurosu, I. Jestrović, J. L. Coyle, "Understanding differences between healthy swallows and penetration-aspiration swallows via compressive sensing of tri-axial swallowing accelerometry signals," in Proc. of SPIE – Compressive Sensing III, vol. 9109, Baltimore, MD, USA, May 7-9, 2013, pp. 91090M-1-91090M-6.
   slug: cs-swallowing-accel-spie
   pdf: /pdfs/papers/cs-swallowing-accel-spie.pdf
   doi: 10.1117/12.2050356
-  abstract: 'Swallowing accelerometry is a promising tool for non-invasive assessment of swallowing difficulties. A recent contribution showed that swallowing accelerometry signals for healthy swallows and swallows indicating laryngeal penetration or tracheal aspiration have different time-frequency structures, which may be problematic for compressive sensing schemes based on time-frequency dictionaries. In this paper, we examined the effects of different swallows on the accuracy of a compressive sensing scheme based on modulated discrete prolate spheroidal sequences. We utilized tri-axial swallowing accelerometry signals recorded from four patients during routinely schedule videofluoroscopy exams. In particular, we considered 77 swallows approximately equally distributed between healthy swallows and swallows presenting with some penetration/aspiration. Our results indicated that the swallow type does not affect the accuracy of a considered compressive sensing scheme. Also, the results confirmed previous findings that each individual axis contributes different information. Our findings are important for further developments of a device which is to be used for long-term monitoring of swallowing difficulties.'
+  abstract: >
+    Swallowing accelerometry is a promising tool for non-invasive assessment of swallowing difficulties. A recent contribution showed that swallowing accelerometry signals for healthy swallows and swallows indicating laryngeal penetration or tracheal aspiration have different time-frequency structures, which may be problematic for compressive sensing schemes based on time-frequency dictionaries. In this paper, we examined the effects of different swallows on the accuracy of a compressive sensing scheme based on modulated discrete prolate spheroidal sequences. We utilized tri-axial swallowing accelerometry signals recorded from four patients during routinely schedule videofluoroscopy exams. In particular, we considered 77 swallows approximately equally distributed between healthy swallows and swallows presenting with some penetration/aspiration. Our results indicated that the swallow type does not affect the accuracy of a considered compressive sensing scheme. Also, the results confirmed previous findings that each individual axis contributes different information. Our findings are important for further developments of a device which is to be used for long-term monitoring of swallowing difficulties.
 
-- citation: 'A. Can-Cimino, L. F. Chaparro, E. Sejdić, "Asynchronous signal dependent non-uniform sampler," in Proc. of SPIE – Compressive Sensing III, vol. 9109, Baltimore, MD, USA, May 7-9, 2013, pp. 910907-1-910907-10.'
+- citation: >
+    A. Can-Cimino, L. F. Chaparro, E. Sejdić, "Asynchronous signal dependent non-uniform sampler," in Proc. of SPIE – Compressive Sensing III, vol. 9109, Baltimore, MD, USA, May 7-9, 2013, pp. 910907-1-910907-10.
   slug: async-nonuniform-sampler
   pdf: /pdfs/papers/async-nonuniform-sampler.pdf
   doi: 10.1117/12.2050568
-  abstract: 'Analog sparse signals resulting from biomedical and sensing network applications are typically non–stationary with frequency–varying spectra. By ignoring that the maximum frequency of their spectra is changing, uniform sampling of sparse signals collects unnecessary samples in quiescent segments of the signal. A more appropriate sampling approach would be signal–dependent. Moreover, in many of these applications power consumption and analog processing are issues of great importance that need to be considered. In this paper we present a signal dependent non–uniform sampler that uses a Modified Asynchronous Sigma Delta Modulator which consumes low–power and can be processed using analog procedures. Using Prolate Spheroidal Wave Functions (PSWF) interpolation of the original signal is performed, thus giving an asynchronous analog to digital and digital to analog conversion. Stable solutions are obtained by using modulated PSWFs functions. The advantage of the adapted asynchronous sampler is that range of frequencies of the sparse signal is taken into account avoiding aliasing. Moreover, it requires saving only the zero–crossing times of the non–uniform samples, or their differences, and the reconstruction can be done using their quantized values and a PSWF–based interpolation. The range of frequencies analyzed can be changed and the sampler can be implemented as a bank of filters for unknown range of frequencies. The performance of the proposed algorithm is illustrated with an electroencephalogram (EEG) signal.'
+  abstract: >
+    Analog sparse signals resulting from biomedical and sensing network applications are typically non–stationary with frequency–varying spectra. By ignoring that the maximum frequency of their spectra is changing, uniform sampling of sparse signals collects unnecessary samples in quiescent segments of the signal. A more appropriate sampling approach would be signal–dependent. Moreover, in many of these applications power consumption and analog processing are issues of great importance that need to be considered. In this paper we present a signal dependent non–uniform sampler that uses a Modified Asynchronous Sigma Delta Modulator which consumes low–power and can be processed using analog procedures. Using Prolate Spheroidal Wave Functions (PSWF) interpolation of the original signal is performed, thus giving an asynchronous analog to digital and digital to analog conversion. Stable solutions are obtained by using modulated PSWFs functions. The advantage of the adapted asynchronous sampler is that range of frequencies of the sparse signal is taken into account avoiding aliasing. Moreover, it requires saving only the zero–crossing times of the non–uniform samples, or their differences, and the reconstruction can be done using their quantized values and a PSWF–based interpolation. The range of frequencies analyzed can be changed and the sampler can be implemented as a bank of filters for unknown range of frequencies. The performance of the proposed algorithm is illustrated with an electroencephalogram (EEG) signal.
 
-- citation: 'E. Sejdić, L.F. Chaparro, "A compressive sampling approach for brain-machine interfaces based on transcranial Doppler sonography: A case study of resting-state maximal cerebral blood velocity signals," in Proc. of 1st IEEE Global Conference on Signal and Information Processing (GlobalSIP 2013), Austin, Texas, USA, December 3-5, 2013, pp. 13-16.'
+- citation: >
+    E. Sejdić, L.F. Chaparro, "A compressive sampling approach for brain-machine interfaces based on transcranial Doppler sonography: A case study of resting-state maximal cerebral blood velocity signals," in Proc. of 1st IEEE Global Conference on Signal and Information Processing (GlobalSIP 2013), Austin, Texas, USA, December 3-5, 2013, pp. 13-16.
   slug: cs-tcd-globalsip
   pdf: /pdfs/papers/cs-tcd-globalsip.pdf
   doi: 10.1109/GlobalSIP.2013.6736799 
-  abstract: 'Transcranial Doppler sonography was recently proposed as an approach for brain-machine interfaces. However, monitoring maximal cerebral blood flow velocity signals for extensive time periods can generate large volumes of data for processing. In this paper, a compressive sensing (CS) approach is proposed based on a time-frequency dictionary formed by modulated discrete prolate spheroidal sequences (MDPSS). To test the proposed scheme, we examined maximal cerebral blood flow velocity signals acquired from 20 healthy subjects during a resting state. The results of our analysis clearly depicted that these signals can be accurately reconstructed using only 30% and 50% of original samples. Hence, the proposed MDPSS-based CS approach is a valid tool for diminishing the number of acquired samples during brain-machine operations using transcranial Doppler sonography.'
+  abstract: >
+    Transcranial Doppler sonography was recently proposed as an approach for brain-machine interfaces. However, monitoring maximal cerebral blood flow velocity signals for extensive time periods can generate large volumes of data for processing. In this paper, a compressive sensing (CS) approach is proposed based on a time-frequency dictionary formed by modulated discrete prolate spheroidal sequences (MDPSS). To test the proposed scheme, we examined maximal cerebral blood flow velocity signals acquired from 20 healthy subjects during a resting state. The results of our analysis clearly depicted that these signals can be accurately reconstructed using only 30% and 50% of original samples. Hence, the proposed MDPSS-based CS approach is a valid tool for diminishing the number of acquired samples during brain-machine operations using transcranial Doppler sonography.
 
-- citation: 'E. Sejdić, L.F. Chaparro, "Time-frequency representations based on compressive samples," in Proc. of 21st European Signal Processing Conference (EUSIPCO''13), Marrakech, Morocco, September 9-13, 2013, pp. 1569742057-1-4.'
+- citation: >
+    E. Sejdić, L.F. Chaparro, "Time-frequency representations based on compressive samples," in Proc. of 21st European Signal Processing Conference (EUSIPCO''13), Marrakech, Morocco, September 9-13, 2013, pp. 1569742057-1-4.
   slug: cs-tfr-eusipco
   pdf: /pdfs/papers/cs-tfr-eusipco.pdf
   doi: TBA
-  abstract: 'A recent rise of compressive sensing (CS) algorithms has prompted many questions about the analysis of such sensed signals. Specifically, calculating a time-frequency representation (TFR) of these signals is an open question. In this paper, we propose an approach for calculating TFRs of compressed sensed signals based on recently proposed CS algorithm using modulated discrete prolate spheroidal sequences (MDPSS). The results of our numerical analysis show that a visually reliable TFR of compressed sensed signals can be obtained using the proposed approach. Furthermore, these compressed sensed signals can also be used for accurate estimation of signal parameters such as the instantaneous frequency.'
+  abstract: >
+    A recent rise of compressive sensing (CS) algorithms has prompted many questions about the analysis of such sensed signals. Specifically, calculating a time-frequency representation (TFR) of these signals is an open question. In this paper, we propose an approach for calculating TFRs of compressed sensed signals based on recently proposed CS algorithm using modulated discrete prolate spheroidal sequences (MDPSS). The results of our numerical analysis show that a visually reliable TFR of compressed sensed signals can be obtained using the proposed approach. Furthermore, these compressed sensed signals can also be used for accurate estimation of signal parameters such as the instantaneous frequency.
 
-- citation: 'X. Liu, J. R. Stachel, E. Sejdić, M. H. Mickle, and J. L. Berger, "The UHF Gen 2 RFID system for transcutaneous operation for orthopedic implants," in Proc. of 2013 IEEE International Instrumentation and Measurement Technology Conference (I2MTC 2013), Minneapolis, MN, USA, May 6-9, 2013, pp. 1620-1623.'
+- citation: >
+    X. Liu, J. R. Stachel, E. Sejdić, M. H. Mickle, and J. L. Berger, "The UHF Gen 2 RFID system for transcutaneous operation for orthopedic implants," in Proc. of 2013 IEEE International Instrumentation and Measurement Technology Conference (I2MTC 2013), Minneapolis, MN, USA, May 6-9, 2013, pp. 1620-1623.
   slug: uhf-rfid-gen-two
   pdf: /pdfs/papers/uhf-rfid-gen-two.pdf
   doi: 10.1109/I2MTC.2013.6555688
-  abstract: 'This paper aims to develop a UHF Gen 2 RFID system for transcutaneous operation for identifying and monitoring orthopedic implants. The major problems of using existing RFID antennas at UHF band for transcutaneous operation include possible interference with pacemakers and interference with other RFID systems working at the same band. To provide a solution for the above problems, this paper uses transcutaneous near field communication (TNFC) technology based on capacitive coupling between the reader and the tag. The reader and tag both have two electrodes and the energy and signal transmission occurs with the coupling between the electrodes. Both the reader and the tag are impedance matched for maximum power transmission efficiency. A reading range of 4.1 cm is achieved through pork skin using 30 dBm power from the reader. The proposed UHF RFID system is a feasible solution to provide high efficiency for transcutaneous operation while can eliminate an interference with other medical devices or RFID devices.'
+  abstract: >
+    This paper aims to develop a UHF Gen 2 RFID system for transcutaneous operation for identifying and monitoring orthopedic implants. The major problems of using existing RFID antennas at UHF band for transcutaneous operation include possible interference with pacemakers and interference with other RFID systems working at the same band. To provide a solution for the above problems, this paper uses transcutaneous near field communication (TNFC) technology based on capacitive coupling between the reader and the tag. The reader and tag both have two electrodes and the energy and signal transmission occurs with the coupling between the electrodes. Both the reader and the tag are impedance matched for maximum power transmission efficiency. A reading range of 4.1 cm is achieved through pork skin using 30 dBm power from the reader. The proposed UHF RFID system is a feasible solution to provide high efficiency for transcutaneous operation while can eliminate an interference with other medical devices or RFID devices.
+
+- citation: >
+    J. R. Stachel, E. Sejdić, A. Ogirala, and M. H. Mickle, "The impact of the internet of things on implanted medical devices including pacemakers, and ICDs," in Proc. of 2013 IEEE International Instrumentation and Measurement Technology Conference (I2MTC 2013), Minneapolis, MN, USA, May 6-9, 2013, pp. 839-844.
+  slug: internet-of-things-medical
+  pdf: /pdfs/papers/internet-of-things-medical.pdf
+  doi: 10.1109/I2MTC.2013.6555533
+  abstract: >
+    The Internet of Things describes multiple distributed systems where all (or most) everyday items include embedded systems in order to connect to the internet. This paradigm has the potential to revolutionize global industry and daily life. Healthcare is once such industry where the Internet of Things may provide great advantages to patients, care givers, and medical institutions. As the number of radio frequency emitters increases under this new paradigm public health and safety must also be taken into account. This paper explores the electromagnetic interference on implantable cardiac rhythm management devices caused by RFID interrogators. A standard electromagnetic compatibility test framework is proposed in order to diagnose the possibility of interference. Also, a mitigation method is proposed and tested. It is shown that the proposed method can reduce the incidence of clinically significant interference by nearly 60%.
+
+- citation: >
+    A. Can, E. Sejdić, and L. F. Chaparro, "Asynchronous sampling and reconstruction of sparse signals," in Proc. of 20th European Signal Processing Conference (EUSIPCO'12), Bucharest, Romania, August 27-31, 2012, pp. 854-858.
+  slug: async-samp-recon
+  pdf: /pdfs/papers/async-samp-recon.pdf
+  doi: TBA
+  abstract: >
+    Asynchronous signal processing is an appropriate low-power approach for the processing of bursty signals typical in biomedical applications and sensing networks. Different from the synchronous processing, based on the Shannon- Nyquist sampling theory, asynchronous processing is free of aliasing constrains and quantization error, while allowing continuous-time processing. In this paper we connect level crossing sampling with time-encoding using asynchronous sigma delta modulators, to develop an asynchronous decomposition procedure similar to the Haar transform wavelet decomposition. Our procedure provides a way to reconstruct bounded signals, not necessarily band-limited, from related zero-crossings, and it is especially applicable to decompose sparse signals in time and to denoise them. Actual and synthetic signals are used to illustrate the advantages of the decomposer.
+
+- citation: >
+    A. Can, E. Sejdić, O. Alkishriwo, and L. F. Chaparro, "Compressive asynchronous decomposition of heart sounds," in Proc. of 2012 IEEE Statistical Signal Processing Workshop (SSP'12), Ann Arbor, MI, USA, August 5-8, 2012, pp. 740-743.
+  slug: async-cs-heart
+  pdf: /pdfs/papers/async-cs-heart.pdf
+  doi: TBA
+  abstract: >
+    Because of the need to control power consumption, in many biomedical applications asynchronous processing of the data is more appropriate. In this paper, we present a scale-based decomposition algorithm for analog signals similar to the wavelet decomposition. Our procedure uses asynchronous sigma delta modulators (ASDMs) to represent the amplitude of a signal using the zero-crossing times of a binary signal. Changing the zero-crossing times into random sequences of pulse widths, it can be shown to be equivalent to an optimal level-crossing sampler using local averages as the quantization levels. Applying the generation of multi-level signals from the output of ASDMs for different scale parameters we are able to obtain a decomposer that in a few stages provides a close representation of the signal. To illustrate the performance of the proposed decomposition, we consider its application to the representation of heart sounds.
+
+- citation: >
+    I. Orović, A. Draganić, S. Stanković, E. Sejdić, "A unified approach for the estimation of instantaneous frequency and Its derivatives for non-stationary signal analysis," in Proc. of 2012 11th International Conference on Information Science, Signal Processing and their Applications (ISSPA 2012), Montreal, QC, Canada, July 2-5, 2012, pp. 1163-1167.
+  slug: if-estimation-and-complex
+  pdf: /pdfs/papers/if-estimation-and-complex.pdf
+  doi: TBA
+  abstract: >
+    A unified approach for the estimation of the first three phase derivatives of non-stationary signals is proposed in this paper. The possibility to accurately estimate phase derivatives is important in many applications dealing with objects velocity, acceleration and acceleration rate, such as the radar applications and mechanics. The estimation approach is based on definition of the complex-lag distribution. The proposed distribution is inspired by the concepts of complex analysis theory. The general form of distribution for the estimation of the first, second and third derivative of the phase is derived from the specific individual cases. The theoretical considerations are illustrated in the example with fast varying signal phase function.
+
+- citation: >
+    E. Sejdić, L. F. Chaparro, "Recovering heart sounds from sparse samples," in Proc. of 38th Annual Northeast Bioengineering Conference, Philadelphia, PA, USA, Mar. 16-18, 2012, pp. 383-384.
+  slug: cs-heart-sounds
+  pdf: /pdfs/papers/cs-heart-sounds.pdf
+  doi: TBA
+  abstract: >
+    Continuous monitoring of physiological functions such as heart sounds can pose severe constraints on data acquisition and processing systems, especially if remote monitoring is desired. In this paper, we investigate the utility of a recently proposed compressive sensing (CS) algorithm based on modulated discrete prolate spheroidal sequences (MDPSS) for recovering sparsely sampled heart sounds. In particular, we investigate the recordings containing opening snap (OS) or the third heart sounds (S3) in addition to first and second heart sounds. The results of numerical analysis show that heart sounds can be accurately reconstructed even when the sampling rate is reduced to 40% of the original sampling frequency.
+
+- citation: >
+    A. Can, E. Sejdić, L. F. Chaparro, "An asynchronous scale decomposition for biomedical signals," in Proc. of IEEE Signal Processing in Medicine and Biology Symposium (SPBM11), New York, USA, Dec. 10th, 2011, pp. 1-6. 
+  slug: async-scale-decomposition
+  pdf: /pdfs/papers/async-scale-decomposition.pdf
+  doi: 10.1109/SPMB.2011.6120107
+  abstract: >
+    Continuous-time digital signal processors not only offer significant energy savings in important applications such as implantable biomedical devices, but can implement asynchronous procedures. In this paper, we propose an asynchronous signal decomposition for continuous-time signals based on scale rather than frequency. Because the implementation of the proposed procedure does not use a clock it is not affected by aliasing, and moreover no quantization is involved. Such procedure is specially applicable to biomedical signals delivering information in bursts rather than continuously. The decomposer consists of cascaded modules that expand the signal onto different resolution scales and each is composed of an asynchronous sigma delta modulator (ASDM) followed by a local averager and a lowpass filter. The ASDM is a non-linear feedback system used to represent the amplitude of a continuous-time signal by a binary signal whose zero-crossings are used to reconstruct the original signal. One of the parameters of the ASDM is used as a scaling parameter, permitting us to represent the signal by its local means –at different scales– and computed from the zerocrossing times of the output of the ASDM. We develop a compact signal representation that is described by a small number of scale parameters and contains information useful in the continuoustime processing and transmission of the data. The performance of the proposed procedure is illustrated using different types of signals. As a practical application, we consider the non-linear denoising of swallowing signals. Potentially our procedure will find application in asynchronous signal acquisition, continuoustime digital signal processing and transmission in low-power biomedical applications.
+
+- citation: >
+    H. Alshaer, G. R. Fernie, E. Sejdić, T. D. Bradley, “Adaptive segmentation and normalization of breathing acoustic data of subjects with obstructive sleep apnea,” in Proc. of IEEE Toronto International Conference – Science and Technology for Humanity (TIC-STH 2009), Toronto, Canada, Sep. 26-27, 2009, pp. 279-284.
+  slug: segment-sleep-apnea
+  pdf: /pdfs/papers/segment-sleep-apnea.pdf
+  doi: 10.1109/TIC-STH.2009.5444489
+  abstract: >
+    Breath sounds in patients with obstructive sleep apnea are very dynamic and variable signals due to their versatile nature. In this paper, we present an adaptive segmentation algorithm for these sounds. The algorithm divides the breath sounds into segments with similar amplitude levels. As the first step, the proposed scheme creates an envelope of the signal characterizing its long term amplitude variations. Then, K-means clustering is iteratively applied to detect borders between different segments in the envelope, which will then be used to segment and normalize the original signal.
+
+- citation: >
+    E. Sejdić, U. Ozertem, I. Djurović, D. Erdogmus, “A new approach for the reassignment of time-frequency representations,”  in Proc. of IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2009), Taipei, Taiwan, April 19-24, 2009, pp. 2997-3000.
+  slug: reassigned-tfr
+  pdf: /pdfs/papers/reassigned-tfr.pdf
+  doi: 10.1109/ICASSP.2009.4960254
+  abstract: >
+    The reassignment method is a widespread approach for obtaining high resolution time-frequency representations. Nevertheless, its performance is not always optimal and can deteriorate for low signal-to-noise ratio (SNR) values. In order to overcome these obstacles, a novel method for obtaining high resolution time-frequency representations is proposed in this paper. The new method implements proposed nonparametric snakes in order to obtain accurate locations of the signal ridges in the time-frequency domain. The results of numerical analysis show that the proposed method is capable of achieving significantly higher concentration of signals in the time-frequency domain in comparison to the spectrogram and the traditional reassignment method. Furthermore, the new scheme also maintains good performance for low SNR values, while the performance of the other two considered methods significantly diminishes. It is clear from the results that the proposed method might be of significance in applications where accurate estimation of the signal components is required for low SNR values.
+
+- citation: >
+    S. Primak, E. Sejdić, “Application of multitaper analysis to wireless communications problems,” in Proc. of First International Symposium on Applied Sciences in Biosciences and Communications Technologies (ISABEL '08), Aalborg, Denmark, Oct. 25-28, 2008, pp. 1-5. (Invited paper)
+  slug: multitaper-conf
+  pdf: /pdfs/papers/multitaper-conf.pdf
+  doi: 10.1109/ISABEL.2008.4712590
+  abstract: >
+    The paper presents two novel applications of Thomson Multitaper Analysis. It is shown how a wideband simulator of a double mobile MIMO channel could be developed based on geometrical channel model. It is also shown how modification of Discrete Prolate Spheroidal Sequences could be used to better estimation of sparse channels. A number of other potential applications is also mentioned.
+
+- citation: >
+    A. S. Love, E. Sejdić, M. Markowski, M. Waxer, J. B. Morton, R. Sobot, “A brain-controlled 3D sonar scanner,” in Proc. of 21st IEEE Canadian Conference on Electrical and Computer Engineering (IEEE CCECE 2008), Niagara Falls, Ontario, Canada, May 4-7, 2008, pp. 1565-1568.
+  slug: 3d-sonar-scanner
+  pdf: /pdfs/papers/3d-sonar-scanner.pdf
+  doi: 10.1109/CCECE.2008.4564805
+  abstract: >
+    We present a non-invasive brain-machine-interface (BMI) prototype system which allows the simple control of a switch. The main goal of the system, based on electroencephalogram (EEG) recordings, is to create mechanical action from brain activity. Experimental work presented in this paper outlines the operation of a system which is a crude imitation of an ultrasound echolocation based vision mechanism, commonly used by bats and dolphins, which is controlled by brain activity. Simple time-frequency-space domain signal analysis methods are employed to generate the electrical control-signal, while the sonar transducer is mounted on a robotic arm capable of scanning the upper hemisphere.
+
+- citation: >
+    E. Sejdić, M. Luccini, S. Primak, K. Baddour, T. Willink, “Channel estimation using modulated discrete prolate spheroidal sequences based frames,” in Proc. of IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2008), Las Vegas, Nevada, USA, March 31-April 04, 2008, pp. 2849-2852.
+  slug: modulated-dpss
+  pdf: /pdfs/papers/modulated-dpss.pdf
+  doi: 10.1109/ICASSP.2008.4518243
+  abstract: >
+    Accurate and sparse representation of a moderately fast fading channel using bases functions is achievable when both channel and bases bands align. If a mismatch exists, usually a larger number of bases functions is needed to achieve the same accuracy. In this paper, we propose a novel approach for channel estimation based on frames, which preserves sparsity and improves estimation accuracy. Members of the frame are formed by modulating and varying the bandwidth of discrete prolate spheroidal sequences (DPSS) in order to reflect various scattering scenarios. To achieve the sparsity of the proposed representation, a matching pursuit approach is employed. The estimation accuracy of the scheme is evaluated and compared with the accuracy of a Slepian basis expansion estimator based on DPSS for a variety of mobile channel parameters. The results clearly indicate that for the same number of atoms, a significantly higher estimation accuracy is achievable with the proposed scheme when compared to the DPSS estimator.
+
+- citation: >
+    E. Sejdić, P. Raković, M. Daković, LJ. Stanković, “An algorithm for decomposition of heart sounds based on S-method,” in Proc. of 2007 European Signal Processing Conference (EUSIPCO 2007), Poznan, Poland, Sep. 3-7, 2007, pp. 2484-2488.
+  slug: heart-sounds-smethod
+  pdf: /pdfs/papers/heart-sounds-smethod.pdf
+  doi: TBA
+  abstract: >
+    Clinical experience has shown that heart sounds can be an effective tool to noninvasively diagnose some forms of heart disease. In this paper, an algorithm based on time-frequency analysis is used for the decomposition of the heart sounds. The decomposition algorithm is based on the S-method. The S-method is a time-frequency representation that can produce a distribution equal or close to the sum of the Wigner distributions of individual signal components. The decomposition algorithm is used for segmentation of the heart sound recordings that contain either of the two sounds: opening snap or third heart sound, which indicate distinct heart diseases. The results show that the algorithm effectively decomposes each heart beat into the corresponding components. Hence, they may be used in conjunction with a classification algorithm, allowing automatic decomposition and classification of the heart diseases associated with the opening snap and the third heart sound.
+
+- citation: >
+    E. Sejdić, I. Djurović, J. Jiang, “S-transform with frequency dependent Kaiser window,” in Proc. of IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2007), vol. 3, Honolulu, Hawaii, USA, April 15-20, 2007, pp. 1165-1168.
+  slug: kaiser-st
+  pdf: /pdfs/papers/kaiser-st.pdf
+  doi: 10.1109/ICASSP.2007.367049
+  abstract: >
+    A time-frequency signal analysis tool, known as S-transform, can suffer from poor energy concentration in the time-frequency domain. In this paper, a frequency dependent Kaiser window is presented for improving the energy concentration of the S-transform. The new window is analyzed using a set of test signals. The results indicate that the proposed scheme can significantly improve the energy concentration in the time-frequency domain in comparison with the standard S-transform.
+
+- citation: >
+    P. Raković, E. Sejdić, LJ. Stanković, J. Jiang, “Time-frequency signal processing approaches with applications to heart sound analysis,” in Proc. of 33rd Computers in Cardiology Conference, Valencia, Spain, Sep. 17-20, 2006, pp. 197-200.
+  slug: tfr-heart-sounds
+  pdf: /pdfs/papers/tfr-heart-sounds.pdf
+  doi: TBA
+  abstract: >
+    In this paper, it is demonstrated that time-frequency techniques may be used for an enhanced diagnosis of the heart disease. Three time-frequency analysis techniques are compared: spectrogram, Wigner distribution and Smethod. The results show that the S-method could be used in the heart sounds analysis, and that is also capable of enhancing the diagnostic techniques available to medical personnel.
+
+- citation: >
+    E. Sejdić, J. Jiang, “Comparative study of three time-frequency representations with applications to a novel correlation method,” in Proc. of IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2004), vol. 2, Montreal, Canada, May 17-21, 2004, pp. 633-636.
+  slug: src-conf
+  pdf: /pdfs/papers/src-conf.pdf
+  doi: 10.1109/ICASSP.2004.1326337
+  abstract: >
+    The effect of three time-frequency representations on a novel correlation algorithm is studied. By representing a signal in the time-frequency domain, a redundant representation of the signal is obtained. The algorithm presented relies on such redundancies to extrapolate some significant features of the signal. The developed scheme has been applied to heart sound analysis using real recordings from patients, where the opening snap (OS) is distinguished from the third heart sound (S3). The results for the three time-frequency transforms are compared and very encouraging results have been obtained with S-transform.
+
+- citation: >
+    E. Sejdić, J. Jiang, “Time-frequency analysis of the heart sounds,” in Proc. of 2002 ECEGRS, London, Ontario, Canada, May 15-17, 2002, pp. 5-9.
