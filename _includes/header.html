@@ -66,16 +66,11 @@
                         </ul>
                     </li>
                     {% if page.categories.first == 'support' %}
-                    <li class="active dropdown">
+                    <li class="active">
                     {% else %}
-                    <li class="dropdown">
+                    <li>
                     {% endif %}
-                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">support</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{{ site.url }}/support/funding/" title="funding">funding</a></li>
-                            <li><a href="{{ site.url }}/support/industry/" title="industry partners">industry partners</a></li>
-                            <li><a href="{{ site.url }}/support/clinical/" title="clinical partners">clinical partners</a></li>
-                        </ul>
+                    <a href="{{ site.url }}/support/">support</a>
                     </li>
                 </ul>
             </div>
