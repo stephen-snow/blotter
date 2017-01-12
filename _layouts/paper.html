@@ -41,7 +41,7 @@ categories:
             <div class="pad-left note">
                 <div class="smallspacer"></div>
                 <i class="fa fa-file-text-o fa-fw"></i>
-                <a class="off" href="{{ paper.pdf | prepend:site.url }}">{{ paper.pdf | split: '/' | last }}</a>
+                <a target="_blank" class="off" href="{{ paper.pdf | prepend:site.url }}">{{ paper.pdf | split: '/' | last }}</a>
             </div>
             <div class="bigspacer"></div>
             {% endif %}
@@ -63,7 +63,7 @@ categories:
             <div class="pad-left note">
                 <div class="smallspacer"></div>
                 <i class="fa fa-external-link fa-fw"></i>
-                <a class="off" href="http://dx.doi.org/{{ paper.doi }}">{{ paper.doi }}</a>
+                <a target="_blank" class="off" href="http://dx.doi.org/{{ paper.doi }}">{{ paper.doi }}</a>
             </div>
             <div class="bigspacer"></div>
             {% endif %}

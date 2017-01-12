@@ -12,7 +12,7 @@ title: Journal Publications
             <a data-toggle="collapse" data-target="#{{paper.slug}}" class="off"><li>{{ paper.citation }}</li></a></div>
     </div>
     <div id="{{paper.slug}}" class="collapse">
-        <p><a href="{{ paper.pdf | prepend:site.url }}">PDF</a> | DOI: <a href="http://dx.doi.org/{{paper.doi}}">{{paper.doi}}</a><p>
+        <p><a target="_blank" href="{{ paper.pdf | prepend:site.url }}">PDF</a> | DOI: <a target="_blank" href="http://dx.doi.org/{{paper.doi}}">{{paper.doi}}</a><p>
         <p>{{paper.abstract}}</p>
     </div>
     <div class="spacer"></div>
