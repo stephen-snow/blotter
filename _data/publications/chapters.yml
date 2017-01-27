@@ -1,3 +1,24 @@
+- title: 'Adaptive Directional Time-Frequency Distributions'
+  booktitle: 'Time-Frequency Signal Analysis and Processing: A Comprehensive Reference'
+  authors: N. A. Khan, E. Sejdić, B. Boashash
+  pubdetails: 'B. Boashash, Eds. Second Edition, Academic Press, 2016, pp. 299-307'
+  authortype: CA
+  pdf: /pdfs/papers/adaptive-tfd.pdf
+
+- title: 'Time-Frequency Compressive Sensing'
+  booktitle: 'Time-Frequency Signal Analysis and Processing: A Comprehensive Reference'
+  authors: E. Sejdić
+  pubdetails: 'B. Boashash, Eds. Second Edition, Academic Press, 2016, pp. 424-430'
+  authortype: PA
+  pdf: /pdfs/papers/time-frequency-compressive-sampling.pdf
+
+- title: 'Time-Varying Analysis of Brain Networks'
+  booktitle: 'Time-Frequency Signal Analysis and Processing: A Comprehensive Reference'
+  authors: E. Sejdić, S. Aviyente, B. Boashash
+  pubdetails: 'B. Boashash, Eds. Second Edition, Academic Press, 2016, pp. 937-963'
+  authortype: PA
+  pdf: /pdfs/papers/time-varying-analysis-of-brain-networks.pdf
+
 - title: 'Wireless Communications and Multitaper Analysis: Applications to Channel Modelling and Estimation'
   booktitle: Mobile and Wireless Communications Physical Layer Development and Implementation
   authors: S. J. Haghighi, S. Primak, V. Kontorovich, E. Sejdić
