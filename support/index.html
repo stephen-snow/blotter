@@ -3,41 +3,42 @@ layout: default
 title: Support 
 ---
 
-<h2>Current funding sources</h2>
-{% for source in site.data.support.funding %}
-{% if source.current == true %}
-<h4>{{ source.name }}</h4>
-<img style="max-height:160px; max-width:600px;" class="media-object" src="{{ source.image | prepend: site.url }}">
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
-{% endif %}
-{% endfor %}
-
-<h2>Past funding sources</h2>
-{% for source in site.data.support.funding %}
-{% if source.current == false %}
-<h4>{{ source.name }}</h4>
-<img style="max-height:160px; max-width:600px;" class="media-object" src="{{ source.image | prepend: site.url }}">
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
-{% endif %}
-{% endfor %}
-
-<h2>Industry Partners</h2>
-{% for partner in site.data.support.industry %}
-<h4>{{ partner.name }} : {{ partner.research-area }}</h4>
-<h5>{{ partner.location }}</h5>
-<img style="max-height:160px; max-width:600px;" class="media-object" src="{{ partner.image | prepend: site.url }}">
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
-{% endfor %}
-
-<h2>Clinical Partners</h2>
-{% for partner in site.data.support.clinical %}
-<h4>{{ partner.name }} : {{ partner.research-area }}</h4>
-<h5>{{ partner.location }}</h5>
-<img style="max-height:160px; max-width:600px;" class="media-object" src="{{ partner.image | prepend: site.url }}">
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
-{% endfor %}
-
+<h3>Industrial Partnerships</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th></th>
+            <th>Research Area</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for partner in site.data.support.industry %}
+        <tr>
+            <td>{{ partner.name }}{% if partner.location %} ({{ partner.location }}){% endif %}</td>
+            <td><img style="max-height:160px; max-width:300px;" src="{{ partner.image | prepend: site.url }}"></td>
+            <td>{{ partner.research-area }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+            
+<h3>Clinical Partnerships</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Institution</th>
+            <th></th>
+            <th>Research Area</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for partner in site.data.support.clinical %}
+        <tr>
+            <td>{{ partner.name }}{% if partner.location %} ({{ partner.location }}){% endif %}</td>
+            <td><img style="max-height:160px; max-width:300px;" src="{{ partner.image | prepend: site.url }}"></td>
+            <td>{{ partner.research-area }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

@@ -1,3 +1,7 @@
+- name: GS1
+  image: /images/support/gs1.jpg
+  research-area: Barcodes
+
 - name: Panacis Medical Inc.
   location: Ottawa, Ontario, Canada
   image: /images/support/panacis.jpg

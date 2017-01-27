@@ -1,4 +1,14 @@
 - name: University of Pittsburgh Medical Center
   image: /images/support/upmc.jpg
-  location: Pittsburgh, PA
+  location: Pittsburgh, PA, USA
+  research-area: Human gait and swallowing difficulties
+
+- name: Toronto Rehabilitation Institute
+  image: /images/support/torontorehab.png
+  location: Toronto, Ontario, Canada
+  research-area: Swallowing difficulties
+
+- name: Holland Bloorview Kids Rehabilitation Hospital
+  image: /images/support/hollandbloorview.jpg
+  location: Toronoto, Ontario, Canada
   research-area: Swallowing difficulties
