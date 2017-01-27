@@ -1,14 +1,16 @@
 ---
-layout: about
+layout: contact 
 title: Contact
 ---
 
-iMED Lab
-Benedum Hall 732
-Department of Electrical and Computer Engineering
-Swanson School of Engineering
-University of Pittsburgh
-Pittsburgh, PA 15261, USA
+iMED Lab  
+3700 O'Hara Street  
+Benedum Hall Room 732  
+Pittsburgh, PA 15213, USA
 
-Tel: 412-624-0508 
+Department of Electrical and Computer Engineering  
+Swanson School of Engineering  
+University of Pittsburgh  
+
+Tel: 412-624-0508  
 Fax: 412-624-8003
