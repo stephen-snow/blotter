@@ -111,6 +111,10 @@ h6 {
 	/* Museo */
 }
 
+.navbar {
+    margin-bottom: 0px;
+}
+
 /* headings */
 
 .bigtitle {
@@ -172,8 +176,140 @@ h6 {
 
 /* other */
 
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../images/header_images.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body .intro-box {
+    background-color: rgba(245, 245, 245, 0.6);
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #00007e
+}
+.intro .intro-body .intro-text {
+    font-size: 18px;
+    color: #00007e
+}
+@media (min-width: 768px) {
+    .intro {
+        min-height: 95vh;
+        padding: 0;
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+.content-section {
+    padding-top: 0px;
+}
+.about-section {
+    font-size: 20px;
+    width: 100%;
+    padding: 50px 0;
+    //color: white;
+    //background-color: #00007e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.recent-section {
+    font-size: 20px;
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background-color: #00007e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.twitter-section {
+    font-size: 20px;
+    width: 100%;
+    padding: 50px 0;
+    //color: white;
+    //background-color: #00007e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    font-size: 15px;
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background-color: #00007e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+footer p {
+    margin: 0;
+}
+
+@media (min-width: 767px) {
+    .content-section {
+        padding-top: 0px;
+    }
+    .about-section {
+        padding: 50px 0;
+    }
+    .recent-section {
+        padding: 50px 0;
+    }
+    .twitter-section{
+        padding: 50px 0;
+    }
+}
+
+html {
+    height:100%;
+}
+
 body {
+    height:100%;
 	font-weight: 300;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px; 
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.site-footer, .page-wrap:after {
+    height: 142px; 
 }
 
 p {
@@ -299,10 +435,6 @@ blockquote {
 
 .pad-left {
 	padding-left: 10px;
-}
-
-#footer {
-	height: 80px;
 }
 
 .footernav {
