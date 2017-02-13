@@ -12,7 +12,7 @@ title: Chapters
 <div class="row">
     <div class="col-md-8">
         <li>
-            <a target="_blank" href="{{ chapter.pdf | prepend:site.url }}" class="off">{{ chapter.authors }}, "{{ chapter.title }}," in <i>{{ chapter.booktitle }}</i>. {{ chapter.pubdetails }}. <b>{{ chapter.authortype }}</b></a>
+            {{ chapter.authors }}, "{{ chapter.title }}," in <i>{{ chapter.booktitle }}</i>. {{ chapter.pubdetails }}. <b>{{ chapter.authortype }}</b> <a target="_blank" href="{{ chapter.pdf | prepend:site.url }}">[PDF]</a>
         </li>
     </div>
 </div>
