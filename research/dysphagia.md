@@ -1,7 +1,7 @@
 ---
 layout: research
 title: Dysphagia 
-image: /images/research/dualaxis.png
+image: /images/research/dualaxis.jpg
 ---
 
 Dysphagia (swallowing difficulty) is a common problem encountered in the rehabilitation of stroke patients, head injured patients, and others with paralyzing neurological diseases. Dysphagic patients are especially likely to choke or suffer from aspiration (the entry of material into the airway below the true vocal folds), which may cause dire consequences including malnutrition and dehydration, degradation in psychosocial well-being, aspiration pneumonia, and even death.

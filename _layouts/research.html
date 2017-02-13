@@ -10,6 +10,10 @@ categories:
     <div class="col-md-12">
         <h1>{{ topic.title }}</h1>
         {{ content }}
+        <div class="spacer"></div>
+        {% if topic.image %}
+        <img class="media-object" src="{{ topic.image | prepend: site.url }}">
+        {% endif %}
     </div>
 </div>
 
