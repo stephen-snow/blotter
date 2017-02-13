@@ -5,6 +5,7 @@ position: Assistant Professor
 phone: 412-624-0508
 fax: 412-624-8003 
 email: esejdic@ieee.org
+twitter: ErvinSejdic
 image: /images/people/ervin-sejdic.jpg
 ---
 
