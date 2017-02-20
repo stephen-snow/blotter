@@ -5,7 +5,7 @@ title: Contact
 
 iMED Lab  
 3700 O'Hara Street  
-Benedum Hall Room 732  
+Benedum Hall Room 1203  
 Pittsburgh, PA 15213, USA
 
 Department of Electrical and Computer Engineering  
