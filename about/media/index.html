@@ -7,6 +7,10 @@ categories:
 
 <h2>Media</h2>
 {% for media in site.data.media %}
+{% if media.link %}
 "{{ media.title }}" <a href="http://{{media.link}}">{{media.link}}</a> {{media.date}}
+{% else %}
+{{ media.author }}, "{{ media.title }}" {{ media.pubdetails }}, {{ media.date }}
+{% endif %}
 <div class="spacer"></div>
 {% endfor %}
