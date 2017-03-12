@@ -18,3 +18,6 @@ gem 'jekyll-press'
 # octokit
 gem 'octokit'
 gem 'netrc'
+
+# sitemap
+gem 'jekyll-sitemap'

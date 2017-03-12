@@ -7,6 +7,9 @@ markdown: redcarpet
 permalink: pretty 
 future: true
 
+gems:
+  - jekyll-sitemap
+
 redcarpet:
   extensions:
    - tables
