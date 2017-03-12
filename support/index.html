@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Support 
-description: A page describing industry and clinical partners of the iMED lab at the University of Pittsburgh.
+description: A page describing support and partnerships for the iMED lab at the University of Pittsburgh.
 keywords: panacis medical, syngrafii, national institutes of health, national institute of diabetes and digestive and kidney diseases, National Institute on Aging, Natural Sciences and Engineering Research Council of Canada, toronto rehab, holland bloorview kids rehabilitation hospital, ervin sejdic, iMED, University of Pittsburgh
 ---
 
@@ -40,6 +40,25 @@ keywords: panacis medical, syngrafii, national institutes of health, national in
             <td>{{ partner.name }}{% if partner.location %} ({{ partner.location }}){% endif %}</td>
             <td><img style="max-height:160px; max-width:300px;" src="{{ partner.image | prepend: site.url }}"></td>
             <td>{{ partner.research-area }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+<h3>Funding</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Institution</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for partner in site.data.support.funding %}
+        <tr>
+            <td>{{ partner.name }}{% if partner.location %} ({{ partner.location }}){% endif %}</td>
+            <td><img style="max-height:160px; max-width:300px;" src="{{ partner.image | prepend: site.url }}"></td>
         </tr>
         {% endfor %}
     </tbody>
