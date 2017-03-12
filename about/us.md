@@ -1,6 +1,8 @@
 ---
 layout: about
 title: About Us
+description: A page describing a research lab at the University of Pittsburgh headed by Dr. Ervin Sejdic.
+keywords: output and outcome, ervin sejdic, iMED, University of Pittsburgh, biomedical signal processing, swallowing, dysphagia, gait, handwriting, transcranial Doppler
 ---
 
 The iMED (Innovative Medical Engineering Developments) lab was founded in 2011 through the generous support of the Swanson School of Engineering and the University of Pittsburgh. The vision of this lab is to become an international leader in dynamical biomarkers indicative of age- and disease-related changes and their contributions to functional decline under normal and pathological conditions. In particular, the mission of the lab is to develop clinically relevant solutions by fostering innovation in computational approaches and instrumentation that can be translated to bedside care.

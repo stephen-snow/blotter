@@ -1,6 +1,8 @@
 ---
 layout: contact 
 title: Contact
+description: Contact information for a research lab at the University of Pittsburgh headed by Dr. Ervin Sejdic.
+keywords: contact, iMED, University of Pittsburgh
 ---
 
 iMED Lab  

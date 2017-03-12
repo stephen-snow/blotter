@@ -1,6 +1,8 @@
 ---
 layout: research
 title: Signal Processing
+description: A page describing research efforts regarding signal processing at the iMED lab at the University of Pittsburgh.
+keywords: signal processing, biomedical, time-frequency, fractional fourier transform, wavelet, s-transform, short-time fourier transform, fuzzy logic, pattern recognition, classification, support vector machines, ervin sejdic, iMED, University of Pittsburgh
 image: /images/research/tfr.jpg
 ---
 

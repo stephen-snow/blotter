@@ -1,6 +1,8 @@
 ---
 layout: member
 title: Ervin Sejdic
+description: A page describing Dr. Ervin Sejdic, the principal investigator of the iMED lab at the University of Pittsburgh.
+keywords: ervin sejdic, iMED, University of Pittsburgh, university of western ontario, university of toronto, harvard medical school, harvard university, Institute of Biomaterials and Biomedical Engineering, Holland Bloorview Kids Rehabilitation Hospital, signal processing, time-frequency, swallowing, gait, handwriting, functional transcranial doppler
 position: Assistant Professor
 phone: 412-624-0508
 fax: 412-624-8003 

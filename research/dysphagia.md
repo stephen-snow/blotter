@@ -1,6 +1,8 @@
 ---
 layout: research
 title: Dysphagia 
+description: A page describing research efforts regarding dysphagia (swallowing difficulty) at the iMED lab at the University of Pittsburgh.
+keywords: dysphagia, swallowing, aspirometer, cervical auscultation, videoflouroscopy, swallowing accelerometry, swallowing sounds, aspiration, ervin sejdic, iMED, University of Pittsburgh
 image: /images/research/dualaxis.jpg
 ---
 

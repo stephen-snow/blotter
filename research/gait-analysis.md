@@ -1,6 +1,8 @@
 ---
 layout: research
 title: Gait Analysis
+description: A page describing research efforts regarding human gait analysis at the iMED lab at the University of Pittsburgh.
+keywords: human, gait, ervin sejdic, iMED, University of Pittsburgh
 ---
 
 Walking is the most common physical activity among adults. Walking is a complicated task governed by the hierarchical control of the motor cortex, spinal pattern generators and feedback from the vestibular system. Aging and diseases can effect our gait and it is important to investigate these effects. For example, falls are a major cause of morbidity and mortality in older adults. For the elderly population, up to 70% of these falls occur during walking, often leading to hip fractures and subsequent hospitalization. It is therefore important to screen for high-risk individuals so that interventions can be put in place to prevent falls. One method of gauging fall risk is to quantify the ability to maintain balance during locomotion.
